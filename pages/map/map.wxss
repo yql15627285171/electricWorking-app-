@@ -1,0 +1,26 @@
+/* pages/map/map.wxss */
+page{
+  background-color: #f0f0f0;
+}
+.header{
+  height: 40px;
+  display: flex;
+  background-color: #ffffff;
+  line-height: 40px;
+}
+
+.header-left,
+.header-right{
+  width: 50%;
+  text-align: center;
+  /* line-height: 80rpx; */
+}
+
+.map_container{ 
+    width: 100%; 
+} 
+ 
+.map { 
+    height: 100%; 
+    width: 100%; 
+}

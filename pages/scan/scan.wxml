@@ -1,0 +1,4 @@
+<view>
+  <button type='primary' bindtap='loginSystem' class='button1'>登录设备</button>
+  <button type='warn' bindtap='judgeStatus' class='button2'>判断状态</button>
+</view>

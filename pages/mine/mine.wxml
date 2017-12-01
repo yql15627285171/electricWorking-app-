@@ -1,0 +1,24 @@
+<view>
+  <view class='header'>
+    <image src='../../img/head.png'></image>
+    <text>{{userName}}（{{userNo}}）</text>
+  </view>
+  <view class='info'>
+    <view class='line'>
+      <text>座机：{{userMobile}}</text>    
+    </view>
+    <view class='line'>
+      <text>公司：{{team}}</text> 
+    </view>
+    <view class='line'>
+      <text>类型：{{userType}}</text>
+    </view>
+  </view>
+
+  <view class='psd'>
+    <text>修改密码</text>
+    <image src='../../img/details.png'></image>
+  </view>
+
+  <button type='warn' bindtap='logout'>退出登录</button>
+</view>

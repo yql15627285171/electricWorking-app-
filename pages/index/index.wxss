@@ -1,0 +1,80 @@
+page{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(202,202,202,0.5),rgba(102,102,102,0.5));
+  color: white;
+}
+
+.ml-20{
+  margin-left: 20rpx;
+}
+
+.mr-20{
+  margin-right: 20rpx;
+}
+
+.mt-20{
+  margin-top: 20rpx;
+}
+
+.mb-20{
+  margin-bottom: 20rpx;
+}
+
+.ChineseName{
+  text-align: right;
+  font-size: 14px;
+}
+
+.EnglishName{
+   text-align: right;
+   font-size: 10px;
+}
+
+.title{
+  text-align: center;
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+}
+
+.logo-board{
+  text-align: center;
+}
+
+.user-board,.psd-board{
+  height: 60rpx;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 20rpx;
+}
+
+
+.user-image,.psd-image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.user-input,.psd-input{
+  color: #333;
+  font: 16px;
+}
+.placeholder{
+  color: #ccc;
+  font-size: 16px;
+}
+
+.login{
+  margin-top:60rpx;
+  width: 80%;
+}
+
+.resgister{
+  margin-top:20rpx;
+  width: 80%;
+}

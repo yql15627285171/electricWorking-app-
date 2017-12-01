@@ -1,0 +1,51 @@
+page{
+  background-color: #f0f0f0;
+}
+
+.header{
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 60rpx;
+}
+
+.header image{
+  height: 140rpx;
+  width: 140rpx;
+  margin: 0 20rpx;
+}
+
+.line{
+   background: #fff; 
+  /* display: flex; */
+  height: 80rpx;
+  margin-bottom: 6rpx;
+  line-height: 80rpx;
+}
+
+.line text{
+  margin-left: 20rpx;
+}
+
+.psd{
+  background: #fff;
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+}
+
+.psd image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.psd text{
+  margin-left: 20rpx;
+}
+
+button{
+  margin-top: 100rpx;
+}

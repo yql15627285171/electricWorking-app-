@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="wrap">
+  <!-- <view class="ChineseName mr-20 mt-20">深圳市航天泰瑞捷电子有限公司</view>
+  <view class="EnglishName mr-20">Shenzhen Techrise Electronics Co.,Ltd.</view> -->
+  <view class='title'>现 场 作 业</view>
+  <view class='logo-board mt-20'>
+    <image  src='../../img/jiemian.png' class='logo'></image>
+  </view>
+
+  <view class='user-board'>
+    <image src='../../img/user.png' class='user-image ml-20'></image>
+    <input class='user-input ml-20' placeholder='请输入用户名' placeholder-class="placeholder" bindinput="userChange"></input>
+  </view>
+
+  <view class='psd-board'>
+    <image src='../../img/psd.png' class='psd-image ml-20'></image>
+    <input password class='psd-input ml-20' placeholder='请输入密码' placeholder-class="placeholder" bindinput="psdChange"></input>
+  </view>
+
+  <button type='primary' class="login" bindtap='login'>登录</button>
+  <!-- <button type='warn'class="resgister">注册</button> -->
+</view>

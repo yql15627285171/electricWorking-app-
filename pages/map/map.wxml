@@ -1,0 +1,9 @@
+<view>
+  <view class='header'>
+    <view class='header-left' data-headerIndex='1' bindtap='choseType' style="color:{{color1}};">电表分布</view>
+    <view class='header-right' data-headerIndex='2' bindtap='choseType' style="color:{{color2}};">电表检测</view>
+  </view>
+  <view class="map_container" style="height:{{mapHeight}}px"> 
+    <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+  </view> 
+</view>
